@@ -1,0 +1,390 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .promotion-row{
+      background-color: black;
+  }
+  .promotion-row a, .promotion-row p{
+      color: white;
+  }
+  
+  .navbar{
+      background-color: #00000079   !important;
+      z-index: 3;
+      position: absolute;
+      top: 36px;
+  }
+  
+  
+  .nav-link{
+      color: white !important;
+      /* padding-left: 2rem !important; */
+  }
+  
+  .nav-item.active > .nav-link{
+      color: #C8A97E !important;
+  }
+  
+  .navbar-dark .navbar-toggler{
+      border: 1px solid white  !important;
+  }
+  
+  .header-input{
+      background-color: transparent;
+  }
+  
+  .carousel-item{
+      height: 100vh !important;
+  }
+  
+  .carousel-item img{
+      height: 100vh !important;
+      filter: brightness(0.3) !important;
+  }
+  
+  .food-type{
+  background-color: #C8A97E;
+  }
+  .food-type-item{
+      color: black;
+      font-weight: 700;
+  }
+  
+  .login-form{
+      background-color: #C8A97E;
+      color: #3C1E01;
+      font-weight: 700;
+  }
+  
+  .sign-in {
+      background-color: #3C1E01;
+      border-radius: 40px;
+      border: none;
+      color: white;
+      padding: 10px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+  
+  
+  
+    .carousel-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  .carousel-content {
+      text-align: center;
+  }
+  
+  .carousel-content h2 {
+      font-size: 3rem !important ;
+      color: white;
+      font-family: "Great Vibes", cursive;
+  }
+  
+  .carousel-content p {
+      color: white;
+      font-size: 1.5rem;
+      font-family: "Great Vibes", cursive;
+  }
+  
+  .banner-text{
+      color: #C8A97E;
+      font-family: "Great Vibes", cursive;
+  }
+  
+  .btn-menu, .btn-table{
+      border: 2px solid #C8A97E;
+      padding: 8px 25px;
+      color: white;
+      font-family: "Great Vibes", cursive;
+      background-color: transparent;
+      background-image: none;
+      border-radius: 20px;
+      font-size: 2rem;
+  }
+  .btn-menu:hover, .btn-table:hover{
+      background-color: #C8A97E;
+      color: white;
+      font-family: "Great Vibes", cursive;
+  
+  }
+  
+  
+  .about-pic1{
+      background-image: url('./images/about-pic1.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position: center;
+      height: 500px;
+  }
+  
+  .about-pic2{
+      background-image: url('./images/about-pic2.jpg');
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position: center;
+      height: 500px;
+  }
+  
+  .about-heading{
+      font-size: 7rem;
+      position: absolute;
+      z-index: -999;
+      color: #C8A97E;
+      font-family: "Great Vibes", cursive;
+  }
+  
+  .about-subheading{
+      font-size: 3rem;
+      font-weight: 800;
+  }
+  
+  .about-para{
+      font-size: 1.3rem;
+      color: grey;
+      line-height: 1.8;
+  }
+  
+  
+  .parallax{
+      background-image: url('./images/about-bg.jpg');
+      filter: brightness(0.3);
+      height: 200px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  .parallax2{
+      background-image: url('./images/header-banner-img3.jpg');
+      filter: brightness(0.3);
+      height: 200px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  
+  .choose, #reservation{
+      background-color: black;
+  
+  }
+  .section-title h2{
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  padding: 0;
+  line-height: 1px !important;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  color: #aaaaaa !important;
+  font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2:after{
+      content: "";
+      width: 120px;
+      height: 1px;
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.2);
+      margin: 4px 10px;
+  }
+  
+  .section-title p{
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+      font-family: "Playfair Display", serif;
+      color: #C8A97E;
+  }
+  .characteristics{
+      background-color: rgba(24, 24, 24, 0.995);
+  }
+  .characteristics:hover{
+      color: white;
+      background-color: #C8A97E;
+  }
+  
+  .characteristics:hover .characteristics-title{
+      color: white;
+      font-size: 1.9rem;
+  }
+  .characteristics-title{
+      color: #C8A97E;
+      font-size: 1.9rem;
+  }
+  
+  .characteristics-heading{
+      color: white;
+  }
+  
+  .characteristics-para{
+      color: #626060;
+  }
+  
+  .catering-heading{
+      font-size: 6rem;
+      position: absolute;
+      z-index: -999;
+      color: #C8A97E;
+      font-family: "Great Vibes", cursive;
+  }
+  
+  .catering-subheading{
+      font-size: 3rem;
+      font-weight: 800;
+  
+  }
+  
+  .catering-icon {
+      font-size: 4rem;
+      color: #C8A97E;
+  }
+  
+  .catering-para{
+      color: #8f8f8f;
+  }
+  
+  
+  .book-table-form .form-control{
+      background: black;
+      border: 1px solid #C8A97E;
+      opacity: 0.8;
+      color: #C8A97E;
+      padding: 10px;
+  }
+  
+  .book-table-form .form-control::placeholder{
+      color:  #C8A97E ;
+  }
+  
+  .book-table-form .form-control:focus{
+      box-shadow: 0 0 0 0.1rem  #C8A97E;
+      opacity:1;
+  }
+  .book-table{
+      border: 2px solid #C8A97E;
+      padding: 8px 25px;
+      color: white;
+      background-color: transparent;
+      border-radius: 20px;
+      text-align: center;
+      font-size: 1rem;
+  }
+  
+  .book-table:hover{
+      border: 2px solid #C8A97E !important;
+      background-color: #C8A97E !important;
+      color: white;
+  }
+  
+  .contact-heading{
+      font-size: 7rem;
+      position: absolute;
+      z-index: -999;
+      color: #C8A97E;
+      font-family: "Great Vibes", cursive;
+  }
+  
+  .contact-subheading{
+      font-size: 3.5rem;
+      font-weight: 800;
+  }
+  .send-message{
+      border: 2px solid #C8A97E;
+      padding: 8px 25px;
+      color: #C8A97E;
+      background-color: transparent;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 1rem;
+  }
+  
+  .send-message:hover{
+      border: 2px solid #C8A97E !important;
+      background-color: #C8A97E !important;
+      color: white;
+  }
+  
+  
+   .footer{
+      background-color: black;
+      color: grey !important;
+  
+  }
+  
+  .footer-img1{
+      background-image: url('./images/insta-1.jpg.webp');
+  }
+  .footer-img2{
+      background-image: url('./images/insta-2.jpg.webp');
+  }
+  .footer-img3{
+      background-image: url('./images/insta-3.jpg.webp');
+  }
+  .footer-img4{
+      background-image: url('./images/insta-4.jpg.webp');
+  }
+  .footer-img5{
+      background-image: url('./images/insta-5.jpg.webp');
+  }
+  .footer-img6{
+      background-image: url('./images/insta-6.jpg.webp');
+  }
+  .footer-img1, .footer-img2, .footer-img3, .footer-img4, .footer-img5, .footer-img6{
+      height: 100px;
+      width: 100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .newsletter-input{
+      border:none;
+      border-radius: 2px;
+      background-color:rgba(255, 255, 255, 0.1) !important;
+      color: rgba(255, 255, 255, 0.7) !important;
+  }
+  
+  .subscribe{
+      border:2px solid #C8A97E !important;
+      border-radius: 2px;
+      font-weight: 700;
+      color: #C8A97E !important;
+      background-color: white !important;
+  }
+  
+  .subscribe:hover{
+      background-color: #C8A97E !important;
+      color: white !important;
+  
+  }
+  
+  .fa-facebook-f{
+      margin-left: 10px;
+      font-size: 20px;
+      border-radius: 100%;
+      padding:15px 20px ;
+      background-color: #C8A97E;
+      color:white;
+  }
+  .fa-instagram{
+      margin-left: 10px;
+      font-size: 20px;
+      border-radius: 100%;
+      padding:15px 18px ;
+      background-color: #C8A97E;
+      color:white;
+  }
